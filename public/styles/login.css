@@ -1,0 +1,45 @@
+#login-body{
+display : grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr;
+height: 100vh;
+place-items: center;
+}
+
+#container{
+    box-shadow: 0 0 3px #ccc;
+    border-radius: 10px;
+    padding: 20px;
+
+    display : grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr;
+}
+
+#container h1{
+   justify-self: center;
+   align-self: center;
+}
+
+
+#container form{
+    display : grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 5px;
+    
+    
+}
+
+#container form * {
+    align-self: center;
+}
+
+#login{
+    grid-column: 1 / span 2;
+ 
+    justify-self: center;
+
+    padding: 5px 20px;
+}
+
